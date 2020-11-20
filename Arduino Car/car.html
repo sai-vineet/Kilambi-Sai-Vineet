@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARDUINO DIY CAR</title>
+    <link rel="stylesheet" href="ar.css">
+</head>
+<body>
+    <div class="heading">
+        <u><h1>DIY ARDUINO BLUETOOTH CONTROLLED CAR</h1></u>
+    </div>
+    
+    <div class="imag">
+        <img src="main.jpg" alt="Main" width="800" height="600">
+    </div>
+    <div id="info">
+        <u><h1>Bluetooth Controlled RC car – Arduino Program:</h1></u>
+        <p>Arduino Bluetooth control car is a simple robot car that can be controlled by your smartphone.
+             This Smartphone gives a Bluetooth signal to the car and from the signal, the car works.</p>
+    </div>
+    <div>
+       <u> <h1>Components used in the Arduino Car project:</h1></u>
+        <ol>
+            
+            <li>HC-05 Bluetooth</li>
+            
+            <li>Arduino Uno R3 Board</li>
+
+            <li>L298N Motor Driver</li>
+
+            <li>DC Motor</li>
+
+            <li>18650 Battery and Holder(x2)</li>
+
+        </ol>
+
+        <u><h1>Tools Needed:</h1></u>
+         <ul>
+             <li>Soldering Iron</li>
+             <li>Iron Stand</li>
+             <li>Nose Pliers</li>
+             <li>Flux</li>
+         </ul>
+    </div>
+    <div class="blue-info">
+        <u><h1>How can I make my robot car Bluetooth?</h1></u>
+        <p>Arduino Bluetooth control car is a simple robot car that can be controlled by your
+            smartphone. This Smartphone gives a Bluetooth signal to the car and from the signal, the
+            car works. 
+        </p>
+        <p>
+            For running the car wirelessly we are using the HC-05 Bluetooth module. We connect your
+            phone with the BlueTooth module. Then the phone sends some random characters which
+            are stated for running the car. 
+        </p>
+        <p>
+            In general, case, F is used for forwarding car movement.  B is used for a backward car
+            moment. Similarly, Other characters are used for other directions which are mentioned in
+            the Arduino code. 
+        </p>
+    </div>
+    <div>
+        <u><h1>Make Bluetooth Controlled car using Arduino:</h1></u>
+        <p style="font-size: 25px;">For controlling the Motors we are using an l298n motor driver.
+              you can also use l293d also. 
+               I chose l298n in over l293d  because it has high power output. 
+            If you are interested in l293d Bluetooth car then make sure you subscribe to our YouTube channel.</p>
+        
+            <p style="font-size: 25px;">Now for running the car obviously we need a power source.
+             So, For the power source, we are using  18650 Lithium-ion cells. </p>
+            
+   </div>
+
+   <div class="center">
+       <u><h1>Working Video:</h1></u>
+       <video width="1000" height="600" controls>
+        <source src="video.mp4" type="video/mp4">
+        
+        Your browser does not support the video tag.
+      </video>
+   </div>
+
+   <div>
+       <h1>Motor:</h1>
+       <p style="font-size: 25px;">
+        For the motor section, I am using a TT motor.
+         These are some great for our Bluetooth control car project.
+          And it has some low voltage range like 3V to 6V.
+           So, These Motors are great for DIY projects.
+            Here I have also added some high torque Motors well if you want more power. 
+
+        Here, I have used for motors two Motors each site.
+         Two side Motors are connected in parallel for high torque. 
+         And the two-sided Motors cables will go to the motor driver.
+       </p>
+
+       <h1>Motor Driver:</h1>
+       <p style="font-size: 25px;">For the motor driver, I am using an l298n  H Bridge motor driver.
+            This is some good power output so I am using it. 
+           Now just connect two-sided motor cables with the motor driver. </p>
+        <h1>
+            The main controller  Arduino Uno R3:
+        </h1>
+        <p style="font-size: 25px;">
+            For the controller, I am using a basic Arduino microcontroller i.e. Arduino Uno R3.
+             Now used double-sided tape for attaching it on the wood.
+             And now I have connected the data warehouse with the l298n motor driver for sending the reader purses which will drive the motor.
+        </p>
+        <h1>Bluetooth module:</h1>
+        <p style="font-size: 25px;">
+            For the Bluetooth module, I am using HC 05 Bluetooth module. 
+            You can also use an HC-06 Bluetooth module as well.
+             For keeping it simple I am using it.
+        </p>
+        <p style="font-size:  25px;">
+            Note: You must know that when you are uploading the code to the Arduino.
+             You must unplug the RX and TX pin of the Bluetooth module.
+             Otherwise, you will not be able to upload the code to the Arduino.</p>
+   </div>
+   <div>
+       <h1>Arduino Bluetooth car circuit diagram:</h1>
+       <img src="car.jpg" alt="image"> 
+             
+       <h1>Software/ Coding part:</h1>
+
+       <p>For uploading the code choose the right board. 
+            Then choose the write com port and then compile first and then upload to Arduino.
+             As simple as that. </p>
+
+        <p>Now install the app in your Android device and then open it and connect it with the Bluetooth HC 05.
+             Now you can see the red blinking but will be changed in green.
+             So, It means that you are connected with the Bluetooth car robot. </p>
+        <p>Next, you can perform the forward-backward  
+             Left Right functions and you can see the queries working.</p>
+
+    </div>
+
+    <div>
+        <h1>Code:</h1>
+        <a href="Bluetooth car code.txt" style="text-align: center;font-size: 30px;">Download Source Code</a>
+    </div>
+    <div class="side">
+        <h1>Images:</h1>
+        <img src="side.jpg" width="800" height="600">
+    </div>
+    <div class="up">
+        <img src="up.jpeg" width="800" height="600">
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to right,rgb(97, 141, 199),rgb(168, 124, 209));
+    margin 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+body p{
+    font-size: 25px;
+}
+
+.heading h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.imag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#info p{
+    font-size: 25px;
+    text-align: justify;
+}
+.inf p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+ol li{
+    font-size: 25px;
+}
+
+ul li{
+    font-size: 25px ;
+}
+.blue-info p{
+    font-size: 25px;
+}
+
+
+.center{
+    
+        margin: 0 auto;
+      
+}
+
+.up{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.side{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
